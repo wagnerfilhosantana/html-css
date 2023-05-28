@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="300" poster="imagens/Captura de Tela (1).png" controls autoplay loop>
+        <source src="midia/Meuvideo.mp4.mp4" type="video/mp4"> <!--Vídeos "m4v" é o recomendável para inserir em seu site.-->
+        <source src="midia/meuvideo.ogv.ogv" type="video/ogv"> <!--esse aqui é "ogg" e não "ogv"-->
+        <source src="midia/Meuvideo.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeo do YouTube</h1>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+      gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <!--Você até pode colocar vídeos do Youtube, porém é recomendável colocar de uma plataforma chama "vimeo".-->
+</body>
+</html>
