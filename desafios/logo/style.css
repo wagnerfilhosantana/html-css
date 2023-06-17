@@ -1,0 +1,14 @@
+div {
+    background: linear-gradient( 45deg, #159BB0, #2ecde6, #5ae0f5);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+   
+}
+p {
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
+    padding-top: 25%;
+}
