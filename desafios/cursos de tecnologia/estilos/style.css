@@ -1,0 +1,19 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+ 
+ header {
+   height: 80px;
+    background-color: #4d37a5;
+    padding: 10px;
+}
+ 
+ 
+ .button-enter {
+   float: right;
+ }
+ 
+ .links > a {
+   text-align: center;
+ }
