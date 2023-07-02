@@ -1,41 +1,61 @@
- * {
-   margin: 0px;
-   padding: 0px;
- }
- 
- header {
-   height: 80px;
-    background-color: #4d37a5;
-    padding: 10px;
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+body {
+  overflow-x: auto;
+}
+
+header {
+  height: 80px;
+   background-color: #4d37a5d0;
+   padding: 10px;
+   box-shadow: 0px 7px 7px  rgba(0, 0, 0, 0.253);
 }
 
 .button-enter input {
-    float: right;
-    border: none;
-    outline: none;
-    padding: 9px 25px;
-    background:transparent;
-    cursor: pointer;
-    font-size: 0.9em;
-    border-radius: 4px;
-    font-weight: 600;
-    color: white;
+   float: right;
+   border: none;
+   outline: none;
+   margin-top: 25px;
+   padding: 9px 25px;
+   background:transparent;
+   cursor: pointer;
+   font-size: 0.9em;
+   border-radius: 4px;
+   font-weight: 600;
+   color: white;
+   text-shadow: 2px 2px black;
    
 }
 
 .button-enter input:hover {
-  background: black;
+ background: #af9cfb79;
+ color: #e4defe;
 }
- 
- nav.links {
-  text-align: center;
- }
 
- nav.links > a {
-  text-decoration: none;
-   color: white;
-   padding: 10px;
-   font-size: 20px;
-   border-radius: 3px;
-  
- }
+nav.links {
+ text-align: center;
+ margin-top: 25px;
+}
+
+nav.links > a {
+ text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-shadow: 2px 2px black;
+}
+
+.links a:hover {
+  background: #e3defe3d;
+}
+
+main {
+  margin-top: 20%;
+  background-color: #4d37a5d0;
+  width: 1366px;
+  height: 276px;
+}
