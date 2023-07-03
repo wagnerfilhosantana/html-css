@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  height: 80px;
-   background-color: #4d37a5d0;
+  height: 50px;
+   background-color: #181818;
    padding: 10px;
    box-shadow: 0px 7px 7px  rgba(0, 0, 0, 0.253);
 }
@@ -49,13 +49,17 @@ nav.links > a {
   text-shadow: 2px 2px black;
 }
 
-.links a:hover {
-  background: #e3defe3d;
+.links > a:hover {
+  background: #e3defe0c;
 }
 
 main {
-  margin-top: 20%;
-  background-color: #4d37a5d0;
-  width: 1366px;
-  height: 276px;
+  background: #464646ad;
+  height: 550px;
+}
+
+.knowing {
+  display: block;
+  background-color: #636363;
+  margin-top: 40%;
 }
