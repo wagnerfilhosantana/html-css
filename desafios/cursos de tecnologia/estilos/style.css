@@ -53,13 +53,27 @@ nav.links > a {
   background: #e3defe0c;
 }
 
-main {
+.main {
   background: #464646ad;
   height: 550px;
 }
 
 .knowing {
-  display: block;
+  display: flex;
   background-color: #636363;
-  margin-top: 40%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.box-knowing {
+  position: relative;
+  left: 10%;
+  margin: auto;
+}
+
+.input-knowing {
+  align-items: center;
+  margin-top: 10%;
+  margin-right: 50%;
+  display: flex;
 }
