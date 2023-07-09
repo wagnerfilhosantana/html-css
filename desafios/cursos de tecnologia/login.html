@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
+<link rel="stylesheet" href="estilos/login.css">
 <body>
-    <div>
+    <div class="box">
         <form>
-            <h1>Entrar</h1>
-            <div>
-                <input type="email" name="ntr" id="enter">
-                <span>Nome de Usuário</span>
+            <h2>Entrar</h2>
+            <div class="inputbox">
+                <input type="email" name="ntr" id="enter" required>
+                <span>E-mail de Usuário</span>
+                <i></i>
             </div>
-            <div>
-                <input type="password" name="sen" id="senha">
+            <div class="inputbox">
+                <input type="password" name="sen" id="senha" required>
                 <span>Senha de Usuário</span>
+                <i></i>
             </div>
-            <div>
+            <div class="links">
                 <a href="#">Esqueceu a senha?</a>
                 <a href="#">Criar uma conta</a>
             </div>
             <input type="submit" value="Login">
         </form>
-    </div>
+    </div> 
 </body>
 </html>
